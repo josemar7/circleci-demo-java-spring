@@ -89,5 +89,5 @@ workflows:
     jobs:
     - build
     - test:
-        requires: #yeeeeepa
+        requires:
           - build
